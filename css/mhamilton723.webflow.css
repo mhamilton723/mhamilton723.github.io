@@ -317,6 +317,17 @@ p {
   background-color: #000;
 }
 
+.section {
+  height: 100vh;
+  background-color: #2d3a6a;
+  color: #d8f3fc;
+}
+
+.heading-2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 @media (max-width: 991px) {
   .nav-container {
     -webkit-box-flex: 0;
