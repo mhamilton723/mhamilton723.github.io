@@ -707,10 +707,10 @@ p {
 @media (max-width: 767px) {
   .particles {
     height: 100vh;
-    background-image: -webkit-linear-gradient(168deg, rgba(0, 0, 0, .59), hsla(0, 0%, 100%, 0) 69%), url('../images/drawing.svg');
-    background-image: linear-gradient(282deg, rgba(0, 0, 0, .59), hsla(0, 0%, 100%, 0) 69%), url('../images/drawing.svg');
+    background-image: -webkit-linear-gradient(168deg, rgba(0, 0, 0, .59), hsla(0, 0%, 100%, 0) 69%), url('../images/bg_opt_1.svg');
+    background-image: linear-gradient(282deg, rgba(0, 0, 0, .59), hsla(0, 0%, 100%, 0) 69%), url('../images/bg_opt_1.svg');
     background-position: 0px 0px, 0px 0px;
-    background-size: auto, auto;
+    background-size: auto, cover;
     background-repeat: repeat, repeat;
     background-attachment: scroll, scroll;
   }
