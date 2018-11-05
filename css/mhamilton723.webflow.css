@@ -77,7 +77,7 @@ p {
 .particles {
   position: relative;
   display: block;
-  height: 110vh;
+  height: 80vh;
   min-height: 0%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -559,7 +559,7 @@ p {
 ._3colimg {
   width: 30vw;
   max-height: 210px;
-  max-width: none;
+  max-width: 350px;
   border-radius: 3px;
   text-align: center;
 }
@@ -571,7 +571,7 @@ p {
 .ai4eimg {
   width: 30vw;
   max-height: 200px;
-  max-width: none;
+  max-width: 350px;
   border-radius: 3px;
   text-align: center;
 }
@@ -585,7 +585,7 @@ p {
 ._4colimg2 {
   width: 24vw;
   max-height: 170px;
-  max-width: none;
+  max-width: 300px;
   border-radius: 3px;
   text-align: center;
 }
@@ -706,7 +706,7 @@ p {
 
 @media (max-width: 767px) {
   .particles {
-    height: 100vh;
+    height: 80vh;
     background-image: -webkit-linear-gradient(168deg, rgba(0, 0, 0, .59), hsla(0, 0%, 100%, 0) 69%), url('../images/bg_opt_1.svg');
     background-image: linear-gradient(282deg, rgba(0, 0, 0, .59), hsla(0, 0%, 100%, 0) 69%), url('../images/bg_opt_1.svg');
     background-position: 0px 0px, 0px 0px;
