@@ -615,7 +615,7 @@ module.exports = baseIteratee;
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "y", function() { return IX2_ID_DELIMITER; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "N", function() { return WF_PAGE; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "O", function() { return WF_PAGE; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return BOUNDARY_SELECTOR; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "n", function() { return CONFIG_X_VALUE; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "p", function() { return CONFIG_Y_VALUE; });
@@ -625,24 +625,24 @@ module.exports = baseIteratee;
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "o", function() { return CONFIG_Y_UNIT; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "q", function() { return CONFIG_Z_UNIT; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return CONFIG_UNIT; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "L", function() { return TRANSFORM; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "M", function() { return TRANSFORM; });
 /* unused harmony export TRANSLATE_X */
 /* unused harmony export TRANSLATE_Y */
 /* unused harmony export TRANSLATE_Z */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "M", function() { return TRANSLATE_3D; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "N", function() { return TRANSLATE_3D; });
 /* unused harmony export SCALE_X */
 /* unused harmony export SCALE_Y */
 /* unused harmony export SCALE_Z */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "I", function() { return SCALE_3D; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "F", function() { return ROTATE_X; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "G", function() { return ROTATE_Y; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "H", function() { return ROTATE_Z; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "K", function() { return SKEW; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "J", function() { return SCALE_3D; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "G", function() { return ROTATE_X; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "H", function() { return ROTATE_Y; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "I", function() { return ROTATE_Z; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "L", function() { return SKEW; });
 /* unused harmony export SKEW_X */
 /* unused harmony export SKEW_Y */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "z", function() { return OPACITY; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "t", function() { return FILTER; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "O", function() { return WIDTH; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "P", function() { return WIDTH; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "v", function() { return HEIGHT; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return BACKGROUND_COLOR; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return BACKGROUND; });
@@ -650,21 +650,22 @@ module.exports = baseIteratee;
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return COLOR; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "s", function() { return DISPLAY; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "u", function() { return FLEX; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "P", function() { return WILL_CHANGE; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Q", function() { return WILL_CHANGE; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AUTO; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return COMMA_DELIMITER; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return COLON_DELIMITER; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return BAR_DELIMITER; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return CHILDREN; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "x", function() { return IMMEDIATE_CHILDREN; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "J", function() { return SIBLINGS; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "B", function() { return PRESERVE_3D; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "K", function() { return SIBLINGS; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "A", function() { return PARENT; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "C", function() { return PRESERVE_3D; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "w", function() { return HTML_ELEMENT; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "A", function() { return PLAIN_OBJECT; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "B", function() { return PLAIN_OBJECT; });
 /* unused harmony export ABSTRACT_NODE */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "E", function() { return RENDER_TRANSFORM; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "C", function() { return RENDER_GENERAL; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "D", function() { return RENDER_STYLE; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "F", function() { return RENDER_TRANSFORM; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "D", function() { return RENDER_GENERAL; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "E", function() { return RENDER_STYLE; });
 var IX2_ID_DELIMITER = '|';
 var WF_PAGE = 'data-wf-page';
 var BOUNDARY_SELECTOR = '.w-dyn-item';
@@ -709,6 +710,7 @@ var BAR_DELIMITER = '|';
 var CHILDREN = 'CHILDREN';
 var IMMEDIATE_CHILDREN = 'IMMEDIATE_CHILDREN';
 var SIBLINGS = 'SIBLINGS';
+var PARENT = 'PARENT';
 var PRESERVE_3D = 'preserve-3d';
 var HTML_ELEMENT = 'HTML_ELEMENT';
 var PLAIN_OBJECT = 'PLAIN_OBJECT';
@@ -1570,7 +1572,7 @@ var trim = function trim(v) {
 
 var colorStyleProps = Object.freeze((_Object$freeze = {}, _defineProperty(_Object$freeze, __WEBPACK_IMPORTED_MODULE_6__constants_IX2EngineItemTypes__["e" /* STYLE_BACKGROUND_COLOR */], __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["c" /* BACKGROUND_COLOR */]), _defineProperty(_Object$freeze, __WEBPACK_IMPORTED_MODULE_6__constants_IX2EngineItemTypes__["f" /* STYLE_BORDER */], __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["e" /* BORDER_COLOR */]), _defineProperty(_Object$freeze, __WEBPACK_IMPORTED_MODULE_6__constants_IX2EngineItemTypes__["j" /* STYLE_TEXT_COLOR */], __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["i" /* COLOR */]), _Object$freeze));
 
-var willChangeProps = Object.freeze((_Object$freeze2 = {}, _defineProperty(_Object$freeze2, __WEBPACK_IMPORTED_MODULE_9__IX2BrowserSupport__["d" /* TRANSFORM_PREFIXED */], __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["L" /* TRANSFORM */]), _defineProperty(_Object$freeze2, __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["c" /* BACKGROUND_COLOR */], __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["b" /* BACKGROUND */]), _defineProperty(_Object$freeze2, __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["z" /* OPACITY */], __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["z" /* OPACITY */]), _defineProperty(_Object$freeze2, __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["t" /* FILTER */], __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["t" /* FILTER */]), _defineProperty(_Object$freeze2, __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["O" /* WIDTH */], __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["O" /* WIDTH */]), _defineProperty(_Object$freeze2, __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["v" /* HEIGHT */], __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["v" /* HEIGHT */]), _Object$freeze2));
+var willChangeProps = Object.freeze((_Object$freeze2 = {}, _defineProperty(_Object$freeze2, __WEBPACK_IMPORTED_MODULE_9__IX2BrowserSupport__["d" /* TRANSFORM_PREFIXED */], __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["M" /* TRANSFORM */]), _defineProperty(_Object$freeze2, __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["c" /* BACKGROUND_COLOR */], __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["b" /* BACKGROUND */]), _defineProperty(_Object$freeze2, __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["z" /* OPACITY */], __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["z" /* OPACITY */]), _defineProperty(_Object$freeze2, __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["t" /* FILTER */], __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["t" /* FILTER */]), _defineProperty(_Object$freeze2, __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["P" /* WIDTH */], __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["P" /* WIDTH */]), _defineProperty(_Object$freeze2, __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["v" /* HEIGHT */], __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["v" /* HEIGHT */]), _Object$freeze2));
 
 var objectCache = {};
 
@@ -1745,6 +1747,13 @@ function getAffectedElements(_ref3) {
     var eventTargets = eventTarget && (finalSelector || useEventTarget === true) ? [eventTarget] : queryDocument(eventTargetSelector);
 
     if (finalSelector) {
+      if (useEventTarget === __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["A" /* PARENT */]) {
+        return queryDocument(finalSelector).filter(function (parentElement) {
+          return eventTargets.some(function (targetElement) {
+            return elementContains(parentElement, targetElement);
+          });
+        });
+      }
       if (useEventTarget === __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["g" /* CHILDREN */]) {
         return queryDocument(finalSelector).filter(function (childElement) {
           return eventTargets.some(function (targetElement) {
@@ -1752,7 +1761,7 @@ function getAffectedElements(_ref3) {
           });
         });
       }
-      if (useEventTarget === __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["J" /* SIBLINGS */]) {
+      if (useEventTarget === __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["K" /* SIBLINGS */]) {
         return queryDocument(finalSelector).filter(function (siblingElement) {
           return eventTargets.some(function (targetElement) {
             return isSiblingNode(targetElement, siblingElement);
@@ -1777,7 +1786,7 @@ function getAffectedElements(_ref3) {
     return queryDocument(baseSelector, finalSelector);
   } else if (limitAffectedElements === __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["x" /* IMMEDIATE_CHILDREN */]) {
     return getChildElements(queryDocument(baseSelector)).filter(matchSelector(finalSelector));
-  } else if (limitAffectedElements === __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["J" /* SIBLINGS */]) {
+  } else if (limitAffectedElements === __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["K" /* SIBLINGS */]) {
     return getSiblingElements(queryDocument(baseSelector)).filter(matchSelector(finalSelector));
   } else {
     return queryDocument(finalSelector);
@@ -1838,7 +1847,7 @@ function getInstanceOrigin(element) {
       return { value: __WEBPACK_IMPORTED_MODULE_1_lodash_defaultTo___default()(parseFloat(getStyle(element, __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["z" /* OPACITY */])), 1.0) };
     case __WEBPACK_IMPORTED_MODULE_6__constants_IX2EngineItemTypes__["i" /* STYLE_SIZE */]:
       {
-        var inlineWidth = getStyle(element, __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["O" /* WIDTH */]);
+        var inlineWidth = getStyle(element, __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["P" /* WIDTH */]);
         var inlineHeight = getStyle(element, __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["v" /* HEIGHT */]);
         var widthValue = void 0;
         var heightValue = void 0;
@@ -1923,10 +1932,10 @@ function getDestinationValues(_ref6) {
           return { widthValue: widthValue, heightValue: heightValue };
         }
         if (widthUnit === __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["a" /* AUTO */]) {
-          var temp = getStyle(element, __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["O" /* WIDTH */]);
-          setStyle(element, __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["O" /* WIDTH */], '');
+          var temp = getStyle(element, __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["P" /* WIDTH */]);
+          setStyle(element, __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["P" /* WIDTH */], '');
           widthValue = getProperty(element, 'offsetWidth');
-          setStyle(element, __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["O" /* WIDTH */], temp);
+          setStyle(element, __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["P" /* WIDTH */], temp);
         }
         if (heightUnit === __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["a" /* AUTO */]) {
           var _temp = getStyle(element, __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["v" /* HEIGHT */]);
@@ -1963,31 +1972,31 @@ function getDestinationValues(_ref6) {
 
 function getRenderType(actionTypeId) {
   if (/^TRANSFORM_/.test(actionTypeId)) {
-    return __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["E" /* RENDER_TRANSFORM */];
+    return __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["F" /* RENDER_TRANSFORM */];
   }
   if (/^STYLE_/.test(actionTypeId)) {
-    return __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["D" /* RENDER_STYLE */];
+    return __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["E" /* RENDER_STYLE */];
   }
   if (/^GENERAL_/.test(actionTypeId)) {
-    return __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["C" /* RENDER_GENERAL */];
+    return __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["D" /* RENDER_GENERAL */];
   }
 }
 
 function getStyleProp(renderType, actionTypeId) {
-  return renderType === __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["D" /* RENDER_STYLE */] ? actionTypeId.replace('STYLE_', '').toLowerCase() : null;
+  return renderType === __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["E" /* RENDER_STYLE */] ? actionTypeId.replace('STYLE_', '').toLowerCase() : null;
 }
 
 function renderHTMLElement(element, refState, actionState, eventId, actionItem, styleProp, elementApi, renderType) {
   switch (renderType) {
-    case __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["E" /* RENDER_TRANSFORM */]:
+    case __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["F" /* RENDER_TRANSFORM */]:
       {
         return renderTransform(element, refState, actionState, actionItem, elementApi);
       }
-    case __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["D" /* RENDER_STYLE */]:
+    case __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["E" /* RENDER_STYLE */]:
       {
         return renderStyle(element, refState, actionState, actionItem, styleProp, elementApi);
       }
-    case __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["C" /* RENDER_GENERAL */]:
+    case __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["D" /* RENDER_GENERAL */]:
       {
         return renderGeneral(element, actionItem, elementApi);
       }
@@ -2064,13 +2073,13 @@ function renderTransform(element, refState, actionState, actionItem, elementApi)
 
     switch (actionTypeId) {
       case __WEBPACK_IMPORTED_MODULE_6__constants_IX2EngineItemTypes__["k" /* TRANSFORM_MOVE */]:
-        return __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["M" /* TRANSLATE_3D */] + '(' + xValue + xUnit + ', ' + yValue + yUnit + ', ' + zValue + zUnit + ')';
+        return __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["N" /* TRANSLATE_3D */] + '(' + xValue + xUnit + ', ' + yValue + yUnit + ', ' + zValue + zUnit + ')';
       case __WEBPACK_IMPORTED_MODULE_6__constants_IX2EngineItemTypes__["m" /* TRANSFORM_SCALE */]:
-        return __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["I" /* SCALE_3D */] + '(' + xValue + xUnit + ', ' + yValue + yUnit + ', ' + zValue + zUnit + ')';
+        return __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["J" /* SCALE_3D */] + '(' + xValue + xUnit + ', ' + yValue + yUnit + ', ' + zValue + zUnit + ')';
       case __WEBPACK_IMPORTED_MODULE_6__constants_IX2EngineItemTypes__["l" /* TRANSFORM_ROTATE */]:
-        return __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["F" /* ROTATE_X */] + '(' + xValue + xUnit + ') ' + __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["G" /* ROTATE_Y */] + '(' + yValue + yUnit + ') ' + __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["H" /* ROTATE_Z */] + '(' + zValue + zUnit + ')';
+        return __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["G" /* ROTATE_X */] + '(' + xValue + xUnit + ') ' + __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["H" /* ROTATE_Y */] + '(' + yValue + yUnit + ') ' + __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["I" /* ROTATE_Z */] + '(' + zValue + zUnit + ')';
       case __WEBPACK_IMPORTED_MODULE_6__constants_IX2EngineItemTypes__["n" /* TRANSFORM_SKEW */]:
-        return __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["K" /* SKEW */] + '(' + xValue + xUnit + ', ' + yValue + yUnit + ')';
+        return __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["L" /* SKEW */] + '(' + xValue + xUnit + ', ' + yValue + yUnit + ')';
       default:
         return '';
     }
@@ -2083,7 +2092,7 @@ function renderTransform(element, refState, actionState, actionItem, elementApi)
 
   // Set transform-style: preserve-3d
   if (hasDefined3dTransform(actionItem, actionState)) {
-    setStyle(element, __WEBPACK_IMPORTED_MODULE_9__IX2BrowserSupport__["e" /* TRANSFORM_STYLE_PREFIXED */], __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["B" /* PRESERVE_3D */]);
+    setStyle(element, __WEBPACK_IMPORTED_MODULE_9__IX2BrowserSupport__["e" /* TRANSFORM_STYLE_PREFIXED */], __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["C" /* PRESERVE_3D */]);
   }
 }
 
@@ -2159,8 +2168,8 @@ function renderStyle(element, refState, actionState, actionItem, styleProp, elem
           if (widthUnit === __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["a" /* AUTO */]) {
             widthUnit = 'px';
           }
-          addWillChange(element, __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["O" /* WIDTH */], elementApi);
-          setStyle(element, __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["O" /* WIDTH */], widthValue + widthUnit);
+          addWillChange(element, __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["P" /* WIDTH */], elementApi);
+          setStyle(element, __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["P" /* WIDTH */], widthValue + widthUnit);
         }
         if (heightValue !== undefined) {
           if (heightUnit === __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["a" /* AUTO */]) {
@@ -2231,14 +2240,14 @@ function addWillChange(element, prop, elementApi) {
   var getStyle = elementApi.getStyle,
       setStyle = elementApi.setStyle;
 
-  var value = getStyle(element, __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["P" /* WILL_CHANGE */]);
+  var value = getStyle(element, __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["Q" /* WILL_CHANGE */]);
   if (!value) {
-    setStyle(element, __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["P" /* WILL_CHANGE */], validProp);
+    setStyle(element, __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["Q" /* WILL_CHANGE */], validProp);
     return;
   }
   var values = value.split(__WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["j" /* COMMA_DELIMITER */]).map(trim);
   if (values.indexOf(validProp) === -1) {
-    setStyle(element, __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["P" /* WILL_CHANGE */], values.concat(validProp).join(__WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["j" /* COMMA_DELIMITER */]));
+    setStyle(element, __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["Q" /* WILL_CHANGE */], values.concat(validProp).join(__WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["j" /* COMMA_DELIMITER */]));
   }
 }
 
@@ -2253,11 +2262,11 @@ function removeWillChange(element, prop, elementApi) {
   var getStyle = elementApi.getStyle,
       setStyle = elementApi.setStyle;
 
-  var value = getStyle(element, __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["P" /* WILL_CHANGE */]);
+  var value = getStyle(element, __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["Q" /* WILL_CHANGE */]);
   if (!value || value.indexOf(validProp) === -1) {
     return;
   }
-  setStyle(element, __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["P" /* WILL_CHANGE */], value.split(__WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["j" /* COMMA_DELIMITER */]).map(trim).filter(function (v) {
+  setStyle(element, __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["Q" /* WILL_CHANGE */], value.split(__WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["j" /* COMMA_DELIMITER */]).map(trim).filter(function (v) {
     return v !== validProp;
   }).join(__WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["j" /* COMMA_DELIMITER */]));
 }
@@ -2334,14 +2343,14 @@ function cleanupHTMLElement(element, actionItem, elementApi) {
     var config = actionItem.config;
 
     if (config.widthUnit === __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["a" /* AUTO */]) {
-      setStyle(element, __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["O" /* WIDTH */], '');
+      setStyle(element, __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["P" /* WIDTH */], '');
     }
     if (config.heightUnit === __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["a" /* AUTO */]) {
       setStyle(element, __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["v" /* HEIGHT */], '');
     }
   }
 
-  if (getStyle(element, __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["P" /* WILL_CHANGE */])) {
+  if (getStyle(element, __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["Q" /* WILL_CHANGE */])) {
     processElementByType({ effect: removeWillChange, actionTypeId: actionTypeId, elementApi: elementApi })(element);
   }
 }
@@ -2365,7 +2374,7 @@ var processElementByType = function processElementByType(_ref16) {
         effect(element, __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["z" /* OPACITY */], elementApi);
         break;
       case __WEBPACK_IMPORTED_MODULE_6__constants_IX2EngineItemTypes__["i" /* STYLE_SIZE */]:
-        effect(element, __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["O" /* WIDTH */], elementApi);
+        effect(element, __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["P" /* WIDTH */], elementApi);
         effect(element, __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["v" /* HEIGHT */], elementApi);
         break;
       case __WEBPACK_IMPORTED_MODULE_6__constants_IX2EngineItemTypes__["e" /* STYLE_BACKGROUND_COLOR */]:
@@ -2428,7 +2437,7 @@ function getActionListProgress(actionList, instance) {
     if (instanceItem.id === carrierItem.id) {
       elapsedDuration = totalDuration + verboseTimeElapsed;
     }
-    var duration = getRenderType(actionTypeId) === __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["C" /* RENDER_GENERAL */] ? 0 : config.duration;
+    var duration = getRenderType(actionTypeId) === __WEBPACK_IMPORTED_MODULE_8__constants_IX2EngineConstants__["D" /* RENDER_GENERAL */] ? 0 : config.duration;
     totalDuration += config.delay + duration;
   });
   return totalDuration > 0 ? Object(__WEBPACK_IMPORTED_MODULE_5__IX2EasingUtils__["b" /* optimizeFloat */])(elapsedDuration / totalDuration) : 0;
@@ -6495,7 +6504,7 @@ function handleInstanceChange(instance, store) {
 
   if (continuous || active || complete) {
 
-    if (current || renderType === __WEBPACK_IMPORTED_MODULE_14__constants_IX2EngineConstants__["C" /* RENDER_GENERAL */] && complete) {
+    if (current || renderType === __WEBPACK_IMPORTED_MODULE_14__constants_IX2EngineConstants__["D" /* RENDER_GENERAL */] && complete) {
       // Render current values to ref state and grab latest
       store.dispatch(Object(__WEBPACK_IMPORTED_MODULE_12__actions_IX2EngineActions__["elementStateChanged"])(elementId, actionTypeId, current, actionItem));
 
@@ -8569,7 +8578,7 @@ var ixElements = function ixElements() {
 };
 
 function createElementState(state, ref, refType, elementId, actionItem) {
-  var refId = refType === __WEBPACK_IMPORTED_MODULE_1__constants_IX2EngineConstants__["A" /* PLAIN_OBJECT */] ? Object(__WEBPACK_IMPORTED_MODULE_0_timm__["getIn"])(actionItem, ['config', 'target', 'objectId']) : null;
+  var refId = refType === __WEBPACK_IMPORTED_MODULE_1__constants_IX2EngineConstants__["B" /* PLAIN_OBJECT */] ? Object(__WEBPACK_IMPORTED_MODULE_0_timm__["getIn"])(actionItem, ['config', 'target', 'objectId']) : null;
   return Object(__WEBPACK_IMPORTED_MODULE_0_timm__["mergeIn"])(state, [elementId], {
     id: elementId,
     ref: ref,
@@ -8719,7 +8728,7 @@ var timedInstance = function timedInstance(state, action) {
       duration = _actionItem$config.duration,
       delay = _actionItem$config.delay;
 
-  if (renderType === __WEBPACK_IMPORTED_MODULE_0__constants_IX2EngineConstants__["C" /* RENDER_GENERAL */]) {
+  if (renderType === __WEBPACK_IMPORTED_MODULE_0__constants_IX2EngineConstants__["D" /* RENDER_GENERAL */]) {
     duration = 0;
   } else if (immediate) {
     duration = delay = 0;
@@ -13169,7 +13178,7 @@ function getQuerySelector(_ref) {
       var pageId = pair[0];
       nodeId = pair[1];
       // Short circuit query if we're on the wrong page
-      if (pageId !== document.documentElement.getAttribute(__WEBPACK_IMPORTED_MODULE_0__constants_IX2EngineConstants__["N" /* WF_PAGE */])) {
+      if (pageId !== document.documentElement.getAttribute(__WEBPACK_IMPORTED_MODULE_0__constants_IX2EngineConstants__["O" /* WF_PAGE */])) {
         return null;
       }
     }
@@ -13179,7 +13188,7 @@ function getQuerySelector(_ref) {
 }
 
 function getValidDocument(pageId) {
-  if (pageId == null || pageId === document.documentElement.getAttribute(__WEBPACK_IMPORTED_MODULE_0__constants_IX2EngineConstants__["N" /* WF_PAGE */])) {
+  if (pageId == null || pageId === document.documentElement.getAttribute(__WEBPACK_IMPORTED_MODULE_0__constants_IX2EngineConstants__["O" /* WF_PAGE */])) {
     return document;
   }
   return null;
@@ -13262,7 +13271,7 @@ var getClosestElement = Element.prototype.closest ? function (element, selector)
 
 function getRefType(ref) {
   if (ref != null && (typeof ref === 'undefined' ? 'undefined' : _typeof(ref)) == 'object') {
-    return ref instanceof Element ? __WEBPACK_IMPORTED_MODULE_0__constants_IX2EngineConstants__["w" /* HTML_ELEMENT */] : __WEBPACK_IMPORTED_MODULE_0__constants_IX2EngineConstants__["A" /* PLAIN_OBJECT */];
+    return ref instanceof Element ? __WEBPACK_IMPORTED_MODULE_0__constants_IX2EngineConstants__["w" /* HTML_ELEMENT */] : __WEBPACK_IMPORTED_MODULE_0__constants_IX2EngineConstants__["B" /* PLAIN_OBJECT */];
   }
   return null;
 }
