@@ -902,7 +902,7 @@ p {
 
 @media (max-width: 767px) {
   .particles {
-    height: 90vh;
+    height: 110vh;
     background-image: linear-gradient(282deg, rgba(0, 0, 0, .59), hsla(0, 0%, 100%, 0) 69%), url('../images/bg_opt_1.svg');
     background-position: 0px 0px, 0px 0px;
     background-size: auto, cover;
@@ -930,6 +930,9 @@ p {
     width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
+  }
+  .me {
+    max-width: 80%;
   }
   .body {
     background-color: #000;
@@ -1109,6 +1112,21 @@ p {
     -ms-flex-line-pack: stretch;
     align-content: stretch;
   }
+  .link-block {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 100%;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
   .button2 {
     font-size: 16px;
   }
@@ -1157,6 +1175,9 @@ p {
   }
   .hero-wrap {
     top: 5vh;
+  }
+  .me {
+    max-width: 100%;
   }
   .img {
     max-width: 80vw;
