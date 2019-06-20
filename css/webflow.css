@@ -372,8 +372,7 @@ textarea.w-select {
   height: auto;
 }
 .w-select {
-  background-image: -webkit-linear-gradient(white 0%, #f3f3f3 100%);
-  background-image: linear-gradient(white 0%, #f3f3f3 100%);
+  background-color: #f3f3f3;
 }
 .w-select[multiple] {
   height: auto;
@@ -384,15 +383,12 @@ textarea.w-select {
   font-weight: normal;
   margin-bottom: 0px;
 }
-.w-checkbox,
 .w-radio {
   display: block;
   margin-bottom: 5px;
   padding-left: 20px;
 }
-.w-checkbox:before,
 .w-radio:before,
-.w-checkbox:after,
 .w-radio:after {
   content: " ";
   display: table;
@@ -401,11 +397,9 @@ textarea.w-select {
   grid-column-end: 2;
   grid-row-end: 2;
 }
-.w-checkbox:after,
 .w-radio:after {
   clear: both;
 }
-.w-checkbox-input,
 .w-radio-input {
   margin: 4px 0 0;
   margin-top: 1px \9;
