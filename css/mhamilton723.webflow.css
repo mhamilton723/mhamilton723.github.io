@@ -50,9 +50,7 @@ p {
 .nav {
   position: -webkit-sticky;
   position: sticky;
-  left: 0px;
   top: 0px;
-  bottom: 0px;
   z-index: 9999;
   display: -webkit-box;
   display: -webkit-flex;
@@ -69,7 +67,8 @@ p {
 }
 
 .nav-container {
-  width: 80%;
+  position: static;
+  width: 100%;
   height: 100%;
   max-width: none;
   margin-right: 0px;
@@ -118,7 +117,7 @@ p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
+  width: 60%;
   margin-top: 0px;
   margin-bottom: 0px;
   -webkit-box-orient: horizontal;
@@ -247,7 +246,7 @@ p {
 }
 
 .body {
-  background-color: #fff;
+  background-color: #000;
 }
 
 .video-body {
@@ -327,7 +326,7 @@ p {
 }
 
 .h1 {
-  margin-top: 0px;
+  margin-top: 20px;
   margin-bottom: 15px;
   padding-left: 40px;
   color: #fff;
@@ -336,8 +335,8 @@ p {
 
 .section {
   display: block;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  margin-top: -70px;
+  padding-top: 70px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -351,7 +350,6 @@ p {
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
-  background-color: #000;
 }
 
 .conf-title {
@@ -746,6 +744,17 @@ p {
   align-items: center;
 }
 
+.offset {
+  height: 70px;
+  color: #000;
+}
+
+.anchor {
+  position: relative;
+  top: -70px;
+  height: 0px;
+}
+
 @media screen and (max-width: 991px) {
   .nav-container {
     -webkit-box-flex: 0;
@@ -754,8 +763,20 @@ p {
     flex: 0 auto;
   }
 
+  .hero-wrap {
+    width: 90%;
+  }
+
   .heading-1 {
     text-align: center;
+  }
+
+  .hero-left {
+    width: 50%;
+  }
+
+  .hero-right {
+    width: 40%;
   }
 
   .video-body {
@@ -897,25 +918,25 @@ p {
     font-size: 18px;
     line-height: 24px;
   }
+
+  .div-block {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 767px) {
   .nav {
     height: 50px;
-    background-color: rgba(9, 26, 36, 0.64);
+    background-color: rgba(129, 0, 106, 0.75);
   }
 
   .particles {
     height: 110vh;
-    background-image: linear-gradient(282deg, rgba(0, 0, 0, 0.59), hsla(0, 0%, 100%, 0) 69%), url('../images/bg_opt_1.svg');
-    background-position: 0px 0px, 0px 0px;
-    background-size: auto, cover;
-    background-repeat: repeat, repeat;
-    background-attachment: scroll, scroll;
   }
 
   .hero-wrap {
     top: 5vh;
+    width: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -968,6 +989,11 @@ p {
 
   .h1 {
     padding-left: 30px;
+  }
+
+  .section {
+    margin-top: -50px;
+    padding-top: 50px;
   }
 
   .bio-text {
@@ -1031,10 +1057,6 @@ p {
 }
 
 @media screen and (max-width: 479px) {
-  .nav {
-    background-color: rgba(9, 26, 36, 0.83);
-  }
-
   .particles {
     height: 90vh;
   }
