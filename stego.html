@@ -1,5 +1,5 @@
-<!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Tue Jun 21 2022 20:49:38 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
+<!--  Last Published: Tue Mar 21 2023 13:29:53 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="623b9ad4c39a2570c93a65c4" data-wf-site="5fd97fcae7aaf2c02444f619">
 <head>
   <meta charset="utf-8">
@@ -18,6 +18,8 @@
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
   <link href="css/mhamilton723.webflow.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
   <script type="text/javascript">WebFont.load({  google: {    families: ["Inconsolata:400,700","Roboto:100,300,regular,500,700"]  }});</script>
   <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
@@ -26,6 +28,8 @@
   <link href="images/webclip.png" rel="apple-touch-icon">
   <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-128882874-1"></script>
   <script type="text/javascript">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-128882874-1', {'anonymize_ip': false});</script>
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-V1K6GK8BBM"></script>
+  <script type="text/javascript">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('set', 'developer_id.dZGVlNj', true);gtag('config', 'G-V1K6GK8BBM');</script>
 </head>
 <body class="body">
   <div data-collapse="small" data-animation="over-right" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="nav w-nav">
@@ -80,7 +84,7 @@
       <div class="paper-page-section-width">
         <h1 class="paper-section-header">Unsupervised semantic segmentation</h1>
         <div class="small-spacer"></div>
-        <h1 class="paper-page-text-block">Real-world images can be cluttered with multiple objects making classification feel arbitrary. Furthermore, objects in the real world don&#x27;t always fit in bounding boxes. Semantic segmentation methods aim to avoid these challenges by assigning each pixel of an image its own class label. Conventional semantic segmentation methods are notoriously difficult to train due to their dependence on densely labeled images, which can take <strong>100x longer to create than bounding boxes or class annotations</strong>. This makes it hard to gather sizable and diverse datasets in domains where humans don&#x27;t know the structure a-priori. We sidestep these challenges by learning an<strong> ontology of objects with pixel-level semantic segmentation </strong>through <strong>only self-supervision</strong>. </h1><img src="images/overview.jpg" loading="lazy" sizes="(max-width: 479px) 93vw, (max-width: 767px) 95vw, (max-width: 991px) 90vw, 50vw" srcset="images/overview-p-500.jpeg 500w, images/overview-p-800.jpeg 800w, images/overview-p-1080.jpeg 1080w, images/overview-p-1600.jpeg 1600w, images/overview.jpg 2000w" alt="" class="image-2">
+        <h1 class="paper-page-text-block">Real-world images can be cluttered with multiple objects making classification feel arbitrary. Furthermore, objects in the real world don&#x27;t always fit in bounding boxes. Semantic segmentation methods aim to avoid these challenges by assigning each pixel of an image its own class label. Conventional semantic segmentation methods are notoriously difficult to train due to their dependence on densely labeled images, which can take <strong>100x longer to create than bounding boxes or class annotations</strong>. This makes it hard to gather sizable and diverse datasets in domains where humans don&#x27;t know the structure a-priori. We sidestep these challenges by learning an<strong> ontology of objects with pixel-level semantic segmentation </strong>through <strong>only self-supervision</strong>. </h1><img src="images/overview.jpg" loading="lazy" sizes="(max-width: 767px) 95vw, (max-width: 991px) 90vw, 50vw" srcset="images/overview-p-500.jpeg 500w, images/overview-p-800.jpeg 800w, images/overview-p-1080.jpeg 1080w, images/overview-p-1600.jpeg 1600w, images/overview.jpg 2000w" alt="" class="image-2">
       </div>
       <div class="paper-page-section-width">
         <h1 class="paper-section-header">Deep features connect objects across images</h1>
@@ -95,7 +99,7 @@
       <div class="paper-page-section-width">
         <h1 class="paper-section-header">Results</h1>
         <div class="small-spacer"></div>
-        <h1 class="paper-page-text-block">We evaluate the STEGO algorithm on the CocoStuff, Cityscapes, and Potsdam semantic segmentation datasets. Because these methods see no labels, we use a Hungarian matching algorithm to find the best mapping between clusters and dataset classes. We find that STEGO is capable of segmenting complex and cluttered scenes with much higher spatial resolution and sensitivity than the prior art, <a href="https://sites.google.com/view/picie-cvpr2021/home" target="_blank" class="link">PiCIE</a>. This not only yields a substantial qualitative improvement, but also more than <strong>doubles the mean intersection over union (mIoU)</strong>. For results on Cityscapes, and Potsdam see <a href="#Paper" class="link">our paper</a>.</h1><img src="images/Picture6.jpg" loading="lazy" sizes="(max-width: 479px) 85vw, (max-width: 767px) 90vw, (max-width: 991px) 86vw, 50vw" srcset="images/Picture6-p-500.jpeg 500w, images/Picture6-p-1080.jpeg 1080w, images/Picture6-p-1600.jpeg 1600w, images/Picture6.jpg 2000w" alt="" class="image-4">
+        <h1 class="paper-page-text-block">We evaluate the STEGO algorithm on the CocoStuff, Cityscapes, and Potsdam semantic segmentation datasets. Because these methods see no labels, we use a Hungarian matching algorithm to find the best mapping between clusters and dataset classes. We find that STEGO is capable of segmenting complex and cluttered scenes with much higher spatial resolution and sensitivity than the prior art, <a href="https://sites.google.com/view/picie-cvpr2021/home" target="_blank" class="link">PiCIE</a>. This not only yields a substantial qualitative improvement, but also more than <strong>doubles the mean intersection over union (mIoU)</strong>. For results on Cityscapes, and Potsdam see <a href="#Paper" class="link">our paper</a>.</h1><img src="images/Picture6.jpg" loading="lazy" sizes="(max-width: 767px) 87vw, (max-width: 991px) 85vw, 50vw" srcset="images/Picture6-p-500.jpeg 500w, images/Picture6-p-1080.jpeg 1080w, images/Picture6-p-1600.jpeg 1600w, images/Picture6.jpg 2000w" alt="" class="image-4">
       </div>
     </div>
   </div>
@@ -104,12 +108,12 @@
       <div class="paper-page-section-width">
         <h1 class="paper-section-header">Paper</h1>
         <div class="small-spacer"></div>
-        <a href="https://arxiv.org/abs/2203.08414" target="_blank" class="w-inline-block"><img src="images/stego_paper.jpg" loading="lazy" sizes="(max-width: 479px) 93vw, (max-width: 767px) 95vw, (max-width: 991px) 90vw, (max-width: 8000px) 50vw, 4000px" srcset="images/stego_paper-p-500.jpeg 500w, images/stego_paper-p-800.jpeg 800w, images/stego_paper-p-1080.jpeg 1080w, images/stego_paper-p-1600.jpeg 1600w, images/stego_paper-p-2000.jpeg 2000w, images/stego_paper-p-2600.jpeg 2600w, images/stego_paper-p-3200.jpeg 3200w, images/stego_paper.jpg 4000w" alt="" class="paper-thumbnail"></a>
+        <a href="https://arxiv.org/abs/2203.08414" target="_blank" class="w-inline-block"><img src="images/stego_paper.jpg" loading="lazy" sizes="(max-width: 767px) 95vw, (max-width: 991px) 90vw, (max-width: 8000px) 50vw, 4000px" srcset="images/stego_paper-p-500.jpeg 500w, images/stego_paper-p-800.jpeg 800w, images/stego_paper-p-1080.jpeg 1080w, images/stego_paper-p-1600.jpeg 1600w, images/stego_paper-p-2000.jpeg 2000w, images/stego_paper-p-2600.jpeg 2600w, images/stego_paper-p-3200.jpeg 3200w, images/stego_paper.jpg 4000w" alt="" class="paper-thumbnail"></a>
       </div>
       <div class="paper-page-section-width">
         <h1 class="paper-section-header">Bibtex</h1>
         <div class="small-spacer"></div>
-        <div class="code-block">@inproceedings{hamilton2022unsupervised,<br>    title={Unsupervised Semantic Segmentation by Distilling Feature Correspondences},<br>    author={Mark Hamilton and Zhoutong Zhang and Bharath Hariharan and Noah Snavely and William T. Freeman},<br>    booktitle={International Conference on Learning Representations},<br>    year={2022},<br>    url={https://openreview.net/forum?id=SaKO6z6Hl0c}<br>}</div>
+        <div class="code-block">@inproceedings{hamilton2022unsupervised,<br>    title={Unsupervised Semantic Segmentation by Distilling Feature Correspondences},<br>    author={Mark Hamilton and Zhoutong Zhang and Bharath Hariharan and Noah Snavely and William T. Freeman},<br>    booktitle={International Conference on Learning Representations},<br>    year={2022},<br>    url={https://openreview.net/forum?id=SaKO6z6Hl0c}<br>}</div>
       </div>
     </div>
   </div>
