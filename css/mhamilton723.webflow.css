@@ -76,7 +76,7 @@ p {
 .nav {
   z-index: 9999;
   width: 100%;
-  height: 70px;
+  height: 65px;
   background-color: var(--purple);
   justify-content: center;
   display: flex;
@@ -104,9 +104,6 @@ p {
 .particles {
   height: 80vh;
   min-height: 0%;
-  background-image: linear-gradient(282deg, rgba(0, 0, 0, .59), rgba(255, 255, 255, 0) 69%), url('../images/bg_opt_1.svg');
-  background-position: 0 0, 0 0;
-  background-size: auto, cover;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -157,12 +154,14 @@ p {
 }
 
 .hero-left {
-  width: 50%;
+  width: 60%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 3%;
   margin-bottom: 3%;
+  padding-left: 10px;
+  padding-right: 10px;
   display: flex;
 }
 
@@ -176,6 +175,7 @@ p {
 
 .hero-description {
   text-align: center;
+  text-shadow: 0 0 6px #000;
   margin-left: 0;
 }
 
@@ -262,6 +262,10 @@ p {
   border-radius: 5px;
 }
 
+.name {
+  text-shadow: 0 0 12px #000;
+}
+
 .h1 {
   color: var(--white);
   margin-top: 20px;
@@ -273,8 +277,8 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  margin-top: -70px;
-  padding-top: 70px;
+  margin-top: -65px;
+  padding-top: 65px;
   display: block;
 }
 
@@ -566,7 +570,9 @@ p {
   z-index: 200;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(to top, #000 1%, rgba(0, 0, 0, 0) 7%);
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/IMG_6782.jpg');
+  background-position: 0 0, 50%;
+  background-size: auto, cover;
   position: absolute;
 }
 
@@ -842,6 +848,8 @@ p {
 
   .hero-left {
     width: 50%;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .hero-right {
@@ -1128,6 +1136,10 @@ p {
     margin-bottom: 20px;
   }
 
+  .history-left {
+    margin-right: 1%;
+  }
+
   .news-right {
     width: 80%;
   }
@@ -1219,6 +1231,10 @@ p {
 
   .hero-wrap {
     top: 5vh;
+  }
+
+  .subhead-1 {
+    font-size: 17px;
   }
 
   .hero-left {
@@ -1327,7 +1343,7 @@ p {
 
   .history-left {
     width: 35%;
-    margin-right: 2%;
+    margin-right: 4%;
   }
 
   .history-item {
