@@ -1,0 +1,6 @@
+@article{cha2023multiearth,
+  title={MultiEarth 2023--Multimodal Learning for Earth and Environment Workshop and Challenge},
+  author={Cha, Miriam and Angelides, Gregory and Hamilton, Mark and Soszynski, Andy and Swenson, Brandon and Maidel, Nathaniel and Isola, Phillip and Perron, Taylor and Freeman, Bill},
+  journal={arXiv preprint arXiv:2306.04738},
+  year={2023}
+}
