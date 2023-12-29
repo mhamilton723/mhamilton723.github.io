@@ -833,6 +833,15 @@ p {
   padding-right: 20px;
 }
 
+.publication-disclaimer {
+  color: #fff;
+  text-align: left;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 32px;
+  display: block;
+}
+
 @media screen and (max-width: 991px) {
   .nav-container {
     flex: 0 auto;
@@ -1222,6 +1231,11 @@ p {
     padding-left: 0;
     padding-right: 0;
   }
+
+  .publication-disclaimer {
+    font-size: 18px;
+    line-height: 24px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -1422,6 +1436,10 @@ p {
     width: 100%;
     grid-template-rows: auto auto;
     grid-template-columns: 1fr 1fr;
+  }
+
+  .publication-disclaimer {
+    text-align: center;
   }
 }
 
