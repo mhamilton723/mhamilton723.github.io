@@ -1132,6 +1132,10 @@ p {
     top: 14vh;
   }
 
+  .nav-link {
+    color: #000;
+  }
+
   .hero-left {
     width: 100%;
     text-align: center;
