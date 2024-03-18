@@ -595,6 +595,7 @@ p {
 
 .paper-button-holder {
   justify-content: center;
+  align-items: center;
   margin-top: 10px;
   margin-bottom: 10px;
   display: flex;
@@ -894,6 +895,15 @@ p {
 
 .tldr-holder {
   max-width: 800px;
+}
+
+.nav-icon {
+  width: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 @media screen and (max-width: 991px) {
@@ -1583,6 +1593,12 @@ p {
 
   .tldr-text {
     font-size: 16px;
+  }
+
+  .nav-icon {
+    width: 25px;
+    margin-left: 0;
+    margin-right: 10px;
   }
 }
 

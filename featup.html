@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
-<!--  Last Published: Mon Mar 18 2024 02:24:21 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Mon Mar 18 2024 06:31:45 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="65d833482153e0f2f4f8ffe1" data-wf-site="5fd97fcae7aaf2c02444f619">
 <head>
   <meta charset="utf-8">
@@ -52,8 +52,9 @@
     <h1 class="paper-title">FeatUp: A Model-Agnostic Framework<br>for Features at Any Resolution</h1>
     <h1 class="h2">ICLR 2024</h1>
     <div class="paper-button-holder">
-      <a target="_blank" href="https://openreview.net/pdf?id=GkJiNn2QDF" class="button w-button">Paper</a>
+      <a target="_blank" href="https://arxiv.org/abs/2403.10516" class="button w-button">Paper</a>
       <a target="_blank" href="https://aka.ms/featup-code" class="button w-button">Code</a>
+      <a target="_blank" href="https://colab.research.google.com/github/mhamilton723/FeatUp/blob/main/example_usage.ipynb" class="button w-button">Collab Demo</a>
     </div>
     <div class="spacer"></div>
     <h1 class="paper-names">
@@ -290,6 +291,7 @@
   <div id="Abstract" class="section">
     <div class="section-margin">
       <div class="paper-page-section-width">
+        <h1 class="paper-section-header">Abstract</h1>
         <div class="small-spacer"></div>
         <h1 id="Abstract" class="paper-page-text-block">Deep features are a cornerstone of computer vision research, capturing image semantics and enabling the community to solve downstream tasks even in the zero- or few-shot regime. However, these features often lack the spatial resolution to directly perform dense prediction tasks like segmentation and depth prediction because models aggressively pool information over large areas. In this work, we introduce FeatUp, a task- and model-agnostic framework to restore lost spatial information in deep features. We introduce two variants of FeatUp: one that guides features with high-resolution signal in a single forward pass, and one that fits an implicit model to a single image to reconstruct features at any resolution. Both approaches use a multi-view consistency loss with deep analogies to NeRFs. Our features retain their original semantics and can be swapped into existing applications to yield resolution and performance gains even without re-training. We show that FeatUp significantly outperforms other feature upsampling and image super-resolution approaches in class activation map generation, transfer learning for segmentation and depth prediction, and end-to-end training for semantic segmentation.</h1>
       </div>
@@ -320,7 +322,7 @@
       <div class="paper-page-section-width">
         <h1 class="paper-section-header">Paper</h1>
         <div class="small-spacer"></div>
-        <a href="https://openreview.net/pdf?id=GkJiNn2QDF" target="_blank" class="w-inline-block"><img src="images/paper_panel.jpg" loading="lazy" sizes="100vw" srcset="images/paper_panel-p-500.jpg 500w, images/paper_panel-p-800.jpg 800w, images/paper_panel-p-1080.jpg 1080w, images/paper_panel-p-1600.jpg 1600w, images/paper_panel.jpg 2000w" alt="" class="paper-thumbnail"></a>
+        <a href="https://arxiv.org/abs/2403.10516" target="_blank" class="w-inline-block"><img src="images/paper_panel.jpg" loading="lazy" sizes="100vw" srcset="images/paper_panel-p-500.jpg 500w, images/paper_panel-p-800.jpg 800w, images/paper_panel-p-1080.jpg 1080w, images/paper_panel-p-1600.jpg 1600w, images/paper_panel.jpg 2000w" alt="" class="paper-thumbnail"></a>
       </div>
       <div class="paper-page-section-width">
         <h1 class="paper-section-header">Bibtex</h1>
