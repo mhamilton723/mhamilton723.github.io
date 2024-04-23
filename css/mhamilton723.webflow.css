@@ -21,10 +21,10 @@
 }
 
 .w-embed-youtubevideo {
-  width: 100%;
   background-image: url('https://d3e54v103j8qbb.cloudfront.net/static/youtube-placeholder.2b05e7d68d.svg');
   background-position: 50%;
   background-size: cover;
+  width: 100%;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
@@ -81,10 +81,10 @@ p {
 
 .nav {
   z-index: 9999;
-  width: 100%;
-  height: 65px;
   background-color: var(--purple);
   justify-content: center;
+  width: 100%;
+  height: 65px;
   display: flex;
   position: -webkit-sticky;
   position: sticky;
@@ -94,36 +94,36 @@ p {
 
 .nav-container {
   width: 100%;
-  height: 100%;
   max-width: none;
+  height: 100%;
   margin-left: 0;
   margin-right: 0;
   position: static;
 }
 
 .nav-menu {
-  height: 100%;
   align-items: center;
+  height: 100%;
   display: flex;
 }
 
 .particles {
-  height: 80vh;
-  min-height: 0%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 80vh;
+  min-height: 0%;
   display: flex;
   position: relative;
 }
 
 .hero-wrap {
   z-index: 250;
-  width: 60%;
   text-align: left;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  width: 60%;
   margin-top: 0;
   margin-bottom: 0;
   display: flex;
@@ -160,10 +160,10 @@ p {
 }
 
 .hero-left {
-  width: 60%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 60%;
   margin-top: 3%;
   margin-bottom: 3%;
   padding-left: 10px;
@@ -172,10 +172,10 @@ p {
 }
 
 .hero-right {
-  width: 30%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 30%;
   display: flex;
 }
 
@@ -192,19 +192,19 @@ p {
 }
 
 .utility-page-wrap {
-  width: 100vw;
-  height: 100vh;
-  max-height: 100%;
-  max-width: 100%;
   justify-content: center;
   align-items: center;
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+  max-height: 100%;
   display: flex;
 }
 
 .utility-page-content {
-  width: 260px;
   text-align: center;
   flex-direction: column;
+  width: 260px;
   display: flex;
 }
 
@@ -261,11 +261,11 @@ p {
 }
 
 .pub-img {
-  max-height: 300px;
-  max-width: 100%;
   text-align: center;
   object-fit: contain;
   border-radius: 5px;
+  max-width: 100%;
+  max-height: 300px;
 }
 
 .name {
@@ -319,29 +319,29 @@ p {
 }
 
 .section-margin {
-  width: 100%;
   flex-direction: column;
   align-items: center;
+  width: 100%;
   display: flex;
 }
 
 .section-width {
-  width: 70%;
   flex-direction: column;
+  width: 70%;
   display: block;
 }
 
 .pub-image-div {
-  width: 28%;
   justify-content: center;
   align-items: center;
+  width: 28%;
   display: flex;
 }
 
 .pub-item {
-  width: 70%;
   flex-direction: column;
   justify-content: center;
+  width: 70%;
   display: flex;
 }
 
@@ -443,11 +443,11 @@ p {
 }
 
 .press-link {
-  width: 100%;
-  height: 100%;
   object-fit: contain;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  height: 100%;
   padding: 20px;
   transition: box-shadow .2s, background-color .2s;
   display: flex;
@@ -459,25 +459,25 @@ p {
 }
 
 .press-image {
-  width: auto;
-  max-height: 100px;
-  max-width: 90%;
-  min-width: 100px;
   object-fit: contain;
+  width: auto;
+  min-width: 100px;
+  max-width: 90%;
+  max-height: 100px;
 }
 
 .talks-image-div {
-  width: 40%;
   justify-content: center;
   align-items: center;
+  width: 40%;
   display: flex;
 }
 
 .talks-image {
-  max-height: 200px;
   text-align: center;
   object-fit: contain;
   border-radius: 3px;
+  max-height: 200px;
 }
 
 .contact-icon {
@@ -515,8 +515,8 @@ p {
 }
 
 .history-left {
-  width: 40%;
   align-items: center;
+  width: 40%;
   display: flex;
 }
 
@@ -562,8 +562,8 @@ p {
 }
 
 .news-left {
-  width: 13%;
   align-items: center;
+  width: 13%;
   display: flex;
 }
 
@@ -574,12 +574,12 @@ p {
 
 .gradient {
   z-index: 200;
-  width: 100%;
-  height: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/ice_cave_wide.jpg');
   background-position: 0 0, 50%;
   background-size: auto, cover;
   background-attachment: scroll, scroll;
+  width: 100%;
+  height: 100%;
   position: absolute;
 }
 
@@ -602,18 +602,18 @@ p {
 }
 
 .spacer {
-  width: 50%;
-  height: 1px;
   color: #9b9b9b;
   background-color: #5f5f5f;
+  width: 50%;
+  height: 1px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
 .paper-names {
-  max-width: 1000px;
   color: #fff;
   text-align: center;
+  max-width: 1000px;
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 28px;
@@ -622,8 +622,8 @@ p {
 }
 
 .affiliation-image {
-  max-height: 55px;
   max-width: 200px;
+  max-height: 55px;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -646,17 +646,17 @@ p {
 }
 
 .small-spacer {
-  width: 100%;
-  height: 2px;
   color: #9b9b9b;
   background-color: #5f5f5f;
+  width: 100%;
+  height: 2px;
   margin-top: 10px;
   margin-bottom: 20px;
 }
 
 .paper-page-section-width {
-  width: 750px;
   flex-direction: column;
+  width: 750px;
   display: flex;
 }
 
@@ -679,11 +679,11 @@ p {
 }
 
 .paper-hero {
-  min-height: 0%;
   background-image: linear-gradient(282deg, rgba(0, 0, 0, .59), rgba(255, 255, 255, 0) 69%);
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-height: 0%;
   padding-left: 10px;
   padding-right: 10px;
   display: flex;
@@ -730,11 +730,11 @@ p {
 }
 
 .framecaption4 {
-  width: 33.333%;
   color: #fff;
   text-align: center;
   text-shadow: 0 0 10px #000, 0 0 20px #000;
   background-color: rgba(0, 0, 0, .5);
+  width: 33.333%;
 }
 
 .equalcontribution {
@@ -763,19 +763,19 @@ p {
 }
 
 .caption3 {
-  width: 33.33%;
   color: #fff;
   text-align: center;
   text-shadow: 0 0 10px #000, 0 0 20px #000;
   background-color: rgba(0, 0, 0, .5);
+  width: 33.33%;
 }
 
 .featcaption5 {
-  width: 14.286%;
   color: #fff;
   text-align: center;
   text-shadow: 0 0 10px #000, 0 0 20px #000;
   background-color: rgba(0, 0, 0, .5);
+  width: 14.286%;
 }
 
 .largevideogrid {
@@ -783,19 +783,19 @@ p {
 }
 
 .featcaption4 {
-  width: 16.666%;
   color: #fff;
   text-align: center;
   text-shadow: 0 0 10px #000, 0 0 20px #000;
   background-color: rgba(0, 0, 0, .5);
+  width: 16.666%;
 }
 
 .framecaption5 {
-  width: 28.57%;
   color: #fff;
   text-align: center;
   text-shadow: 0 0 10px #000, 0 0 20px #000;
   background-color: rgba(0, 0, 0, .5);
+  width: 28.57%;
 }
 
 .largecomparevideoholder {
@@ -808,25 +808,25 @@ p {
 }
 
 .framespacer3 {
-  width: 40%;
   color: #fff;
   text-align: center;
   text-shadow: 0 0 10px #000, 0 0 20px #000;
+  width: 40%;
 }
 
 .framespacer5 {
-  width: 28.57%;
   color: #fff;
   text-align: center;
   text-shadow: 0 0 10px #000, 0 0 20px #000;
+  width: 28.57%;
 }
 
 .featcaption3 {
-  width: 20%;
   color: #fff;
   text-align: center;
   text-shadow: 0 0 10px #000, 0 0 20px #000;
   background-color: rgba(0, 0, 0, .5);
+  width: 20%;
 }
 
 .example-subheader {
@@ -847,18 +847,18 @@ p {
 }
 
 .framespacer4 {
-  width: 33.333%;
   color: #fff;
   text-align: center;
   text-shadow: 0 0 10px #000, 0 0 20px #000;
+  width: 33.333%;
 }
 
 .framecaption3 {
-  width: 40%;
   color: #fff;
   text-align: center;
   text-shadow: 0 0 10px #000, 0 0 20px #000;
   background-color: rgba(0, 0, 0, .5);
+  width: 40%;
 }
 
 .smallvideocaptionheader {
@@ -1016,8 +1016,8 @@ p {
   }
 
   .press-image {
-    max-height: 80px;
     min-width: 90px;
+    max-height: 80px;
   }
 
   .contact-link {
@@ -1121,14 +1121,14 @@ p {
 
 @media screen and (max-width: 767px) {
   .nav {
-    height: 50px;
     background-color: rgba(129, 0, 106, .75);
+    height: 50px;
   }
 
   .hero-wrap {
-    width: 100%;
     flex-direction: column;
     flex: 1;
+    width: 100%;
     top: 14vh;
   }
 
@@ -1137,8 +1137,8 @@ p {
   }
 
   .hero-left {
-    width: 100%;
     text-align: center;
+    width: 100%;
     margin-top: 0%;
   }
 
@@ -1212,9 +1212,9 @@ p {
   }
 
   .press-image {
-    max-height: 70px;
-    max-width: 80%;
     min-width: 100px;
+    max-width: 80%;
+    max-height: 70px;
   }
 
   .talks-image {
@@ -1436,8 +1436,8 @@ p {
   }
 
   .press-image {
-    max-height: 60px;
     min-width: 120px;
+    max-height: 60px;
   }
 
   .contact-icon {
@@ -1501,9 +1501,9 @@ p {
   }
 
   .affiliation-image {
-    max-height: 30px;
-    max-width: 20%;
     flex: 0 auto;
+    max-width: 20%;
+    max-height: 30px;
     margin-left: 0;
     margin-right: 0;
   }
@@ -1527,9 +1527,9 @@ p {
   }
 
   .affiliationholder {
-    width: 100%;
     grid-template-rows: auto auto;
     grid-template-columns: 1fr 1fr;
+    width: 100%;
   }
 
   .framecaption4 {
