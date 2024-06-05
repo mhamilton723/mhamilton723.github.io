@@ -1584,6 +1584,10 @@ p {
     top: 0%;
   }
 
+  .comparevideoholder {
+    align-items: center;
+  }
+
   .featup-video-grid {
     grid-template-columns: 1fr;
   }
