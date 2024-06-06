@@ -1281,6 +1281,10 @@ p {
     line-height: 44px;
   }
 
+  .paper-button-holder {
+    flex-flow: wrap;
+  }
+
   .paper-names {
     text-align: center;
     padding-left: 10px;
@@ -1531,6 +1535,10 @@ p {
 
   .paper-title {
     line-height: 40px;
+  }
+
+  .paper-button-holder {
+    flex-flow: wrap;
   }
 
   .paper-names {
