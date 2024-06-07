@@ -934,6 +934,10 @@ p {
   grid-template-columns: 1fr 1fr;
 }
 
+.text-span {
+  color: #ecc900;
+}
+
 @media screen and (max-width: 991px) {
   .nav-container {
     flex: 0 auto;
