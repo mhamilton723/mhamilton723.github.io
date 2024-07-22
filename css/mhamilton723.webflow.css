@@ -938,6 +938,11 @@ p {
   color: #ecc900;
 }
 
+.image-3 {
+  width: 100%;
+  margin-top: 20px;
+}
+
 @media screen and (max-width: 991px) {
   .nav-container {
     flex: 0 auto;
@@ -1378,6 +1383,10 @@ p {
   .denseav-example-subheader {
     font-size: 26px;
     line-height: 28px;
+  }
+
+  .image-3 {
+    margin-top: 0;
   }
 }
 
