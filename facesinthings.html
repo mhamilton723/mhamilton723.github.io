@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Fri Sep 20 2024 03:45:19 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Fri Sep 20 2024 03:56:07 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="668edb0106802ddd9a32d5bc" data-wf-site="5fd97fcae7aaf2c02444f619">
 <head>
   <meta charset="utf-8">
@@ -32,7 +32,6 @@
     <div class="nav-container w-container">
       <nav role="navigation" class="nav-menu w-nav-menu">
         <div class="div-block">
-          <a href="#" class="nav-link w-nav-link">Examples</a>
           <a href="#Video" class="nav-link w-nav-link">Video</a>
           <a href="#Abstract" class="nav-link w-nav-link">Abstract</a>
           <a href="#About" class="nav-link w-nav-link">About</a>
@@ -76,28 +75,29 @@
       <div class="paper-page-section-width">
         <h1 class="paper-section-header">Abstract</h1>
         <div class="small-spacer"></div>
-        <h1 id="Abstract" class="paper-page-text-block">The human visual system is well-tuned to detect faces of all shapes and sizes. While this brings obvious survival advantages, such as a better chance of spotting unknown predators in the bush, it also leads to spurious face detections. &quot;Face pareidolia&quot; describes the perception of face-like structure among otherwise random stimuli: seeing faces in coffee stains or clouds in the sky. In this paper, we study face pareidolia from a computer vision perspective. We present an image dataset of &quot;Faces in Things&quot;, consisting of five thousand web images with human-annotated pareidolic faces. Using this dataset, we examine the extent to which a state-of-the-art human face detector exhibits pareidolia, and find a significant behavioral gap between humans and machines. We explore a variety of different strategies to close this gap and discover that the evolutionary need for humans to detect animal faces, as well as human faces, explains some of this gap. Finally, we propose a simple statistical model of pareidolia in images. Through studies on human subjects and our pareidolic face detectors we confirm a key prediction of our model regarding what image conditions are most likely to induce pareidolia.</h1>
-      </div>
-      <div class="paper-page-section-width">
-        <h1 class="paper-section-header">The Faces in Things Dataset</h1>
-        <div class="small-spacer"></div>
-        <h1 id="Abstract" class="paper-page-text-block">We introduce an annotated dataset of five thousand human labeled pareidolic face images, called ``Faces in Things&#x27;&#x27;. Faces in Things is derived from the LAION-5B dataset and annotated for key face attributes and bounding boxes</h1><img sizes="(max-width: 479px) 93vw, (max-width: 767px) 95vw, (max-width: 991px) 90vw, 749.9999389648438px" srcset="images/6408d4de732708fb1275cd71_black_bg_dataset-p-500.jpg 500w, images/6408d4de732708fb1275cd71_black_bg_dataset-p-800.jpg 800w, images/6408d4de732708fb1275cd71_black_bg_dataset-p-1080.jpg 1080w, images/6408d4de732708fb1275cd71_black_bg_dataset-p-1600.jpg 1600w, images/6408d4de732708fb1275cd71_black_bg_dataset-p-2000.jpg 2000w, images/6408d4de732708fb1275cd71_black_bg_dataset.jpg 2400w" alt="" src="images/6408d4de732708fb1275cd71_black_bg_dataset.jpg" loading="lazy" class="image-3">
-      </div>
-      <div class="paper-page-section-width">
-        <h1 class="paper-section-header">Linking Face Pareidolia to Animal Face Detection</h1>
-        <div class="small-spacer"></div><img sizes="(max-width: 479px) 93vw, (max-width: 767px) 95vw, (max-width: 991px) 90vw, 749.9999389648438px" srcset="images/animal-face-connections-p-500.jpg 500w, images/animal-face-connections-p-800.jpg 800w, images/animal-face-connections-p-1080.jpg 1080w, images/animal-face-connections-p-1600.jpg 1600w, images/animal-face-connections.jpg 1729w" alt="" src="images/animal-face-connections.jpg" loading="lazy" class="pareidolia-dog-image">
-        <h1 id="Abstract" class="paper-page-text-block">Using our dataset, we find that several modern face detectors do not experience pareidolia to the same extent humans do. Interestingly, we show that pareidolic face detection can be significantly improved by <strong>fine-tuning a face detector on animal faces</strong>. This effect accounts for roughly <strong>half of the gap</strong> between a pareidolia fine-tuned algorithm, and a human face fine-tuned algorithm. This sheds new light on why humans might experience pareidolia.  </h1><img sizes="(max-width: 479px) 93vw, (max-width: 767px) 95vw, (max-width: 991px) 90vw, 749.9999389648438px" srcset="images/improvement_vs_dataset_black-p-500.png 500w, images/improvement_vs_dataset_black.png 640w" alt="" src="images/improvement_vs_dataset_black.png" loading="lazy" class="pareidolia-graph-image">
-        <h1 id="Abstract" class="paper-page-text-block">We can even use the deep feature representation of our trained animal and pareidolia detector to compute animal-pareidolia doppelgangers:</h1><img sizes="(max-width: 479px) 93vw, (max-width: 767px) 95vw, (max-width: 991px) 90vw, 749.9999389648438px" srcset="images/animal_pareidolia_black_opt.jpg 500w, images/animal_pareidolia_black_opt.jpg 800w, images/animal_pareidolia_black_opt.jpg 1080w, images/animal_pareidolia_black_opt.jpg 1600w, images/animal_pareidolia_black_opt.jpg 2000w, images/animal_pareidolia_black_opt.jpg 2500w" alt="" src="images/animal_pareidolia_black_opt.jpg" loading="lazy" class="image-3">
-      </div>
-      <div class="paper-page-section-width">
-        <h1 class="paper-section-header">Predicting Pareidolia in Humans and Machines</h1>
-        <div class="small-spacer"></div>
-        <h1 id="Abstract" class="paper-page-text-block">Why do some patterns and textures, like the surface of themoon, always seem to provoke pareidolia while others do not? To answer this question,we introduce a simple closed-form model of pareidolic face detection andanalyze its behavior. We find evidence of a &quot;goldilocks&quot; zone wherethe probability of pareidolia is maximized. Intuitively, this occurs when animage generation process is rich enough to match the main spatial modes of a facebut isn’t too rich to make it difficult to match these modes. We measure theexistence of this zone in both humans and machines.</h1><img sizes="(max-width: 479px) 93vw, (max-width: 767px) 95vw, (max-width: 991px) 90vw, 749.9999389648438px" srcset="images/GaussianModelPanel2_black_opt.jpg 500w, images/GaussianModelPanel2_black_opt.jpg 800w, images/GaussianModelPanel2_black_opt.jpg 1080w, images/GaussianModelPanel2_black_opt.jpg 1600w, images/GaussianModelPanel2_black_opt.jpg 2000w, images/GaussianModelPanel2_black_opt.jpg 2600w, images/GaussianModelPanel2_black_opt.jpg 3200w, images/GaussianModelPanel2_black_opt.jpg 3814w" alt="" src="images/GaussianModelPanel2_black_opt.jpg" loading="lazy" class="image-3">
+        <h1 class="paper-page-text-block">The human visual system is well-tuned to detect faces of all shapes and sizes. While this brings obvious survival advantages, such as a better chance of spotting unknown predators in the bush, it also leads to spurious face detections. &quot;Face pareidolia&quot; describes the perception of face-like structure among otherwise random stimuli: seeing faces in coffee stains or clouds in the sky. In this paper, we study face pareidolia from a computer vision perspective. We present an image dataset of &quot;Faces in Things&quot;, consisting of five thousand web images with human-annotated pareidolic faces. Using this dataset, we examine the extent to which a state-of-the-art human face detector exhibits pareidolia, and find a significant behavioral gap between humans and machines. We explore a variety of different strategies to close this gap and discover that the evolutionary need for humans to detect animal faces, as well as human faces, explains some of this gap. Finally, we propose a simple statistical model of pareidolia in images. Through studies on human subjects and our pareidolic face detectors we confirm a key prediction of our model regarding what image conditions are most likely to induce pareidolia.</h1>
       </div>
     </div>
   </div>
   <div id="About" class="section">
-    <div class="section-margin"></div>
+    <div class="section-margin">
+      <article class="paper-page-section-width">
+        <h1 class="paper-section-header">The Faces in Things Dataset</h1>
+        <div class="small-spacer"></div>
+        <h1 class="paper-page-text-block">We introduce an annotated dataset of five thousand human labeled pareidolic face images, called ``Faces in Things&#x27;&#x27;. Faces in Things is derived from the LAION-5B dataset and annotated for key face attributes and bounding boxes</h1><img sizes="(max-width: 479px) 93vw, (max-width: 767px) 95vw, (max-width: 991px) 90vw, 749.9999389648438px" srcset="images/6408d4de732708fb1275cd71_black_bg_dataset-p-500.jpg 500w, images/6408d4de732708fb1275cd71_black_bg_dataset-p-800.jpg 800w, images/6408d4de732708fb1275cd71_black_bg_dataset-p-1080.jpg 1080w, images/6408d4de732708fb1275cd71_black_bg_dataset-p-1600.jpg 1600w, images/6408d4de732708fb1275cd71_black_bg_dataset-p-2000.jpg 2000w, images/6408d4de732708fb1275cd71_black_bg_dataset.jpg 2400w" alt="" src="images/6408d4de732708fb1275cd71_black_bg_dataset.jpg" loading="lazy" class="image-3">
+      </article>
+      <div class="paper-page-section-width">
+        <h1 class="paper-section-header">Linking Face Pareidolia to Animal Face Detection</h1>
+        <div class="small-spacer"></div><img sizes="(max-width: 479px) 93vw, (max-width: 767px) 95vw, (max-width: 991px) 90vw, 749.9999389648438px" srcset="images/animal-face-connections-p-500.jpg 500w, images/animal-face-connections-p-800.jpg 800w, images/animal-face-connections-p-1080.jpg 1080w, images/animal-face-connections-p-1600.jpg 1600w, images/animal-face-connections.jpg 1729w" alt="" src="images/animal-face-connections.jpg" loading="lazy" class="pareidolia-dog-image">
+        <h1 class="paper-page-text-block">Using our dataset, we find that several modern face detectors do not experience pareidolia to the same extent humans do. Interestingly, we show that pareidolic face detection can be significantly improved by <strong>fine-tuning a face detector on animal faces</strong>. This effect accounts for roughly <strong>half of the gap</strong> between a pareidolia fine-tuned algorithm, and a human face fine-tuned algorithm. This sheds new light on why humans might experience pareidolia.  </h1><img sizes="(max-width: 479px) 93vw, (max-width: 767px) 95vw, (max-width: 991px) 90vw, 749.9999389648438px" srcset="images/improvement_vs_dataset_black-p-500.png 500w, images/improvement_vs_dataset_black.png 640w" alt="" src="images/improvement_vs_dataset_black.png" loading="lazy" class="pareidolia-graph-image">
+        <h1 class="paper-page-text-block">We can even use the deep feature representation of our trained animal and pareidolia detector to compute animal-pareidolia doppelgangers:</h1><img sizes="(max-width: 479px) 93vw, (max-width: 767px) 95vw, (max-width: 991px) 90vw, 749.9999389648438px" srcset="images/animal_pareidolia_black_opt-p-500.jpg 500w, images/animal_pareidolia_black_opt-p-800.jpg 800w, images/animal_pareidolia_black_opt-p-1080.jpg 1080w, images/animal_pareidolia_black_opt-p-1600.jpg 1600w, images/animal_pareidolia_black_opt-p-2000.jpg 2000w, images/animal_pareidolia_black_opt.jpg 2500w" alt="" src="images/animal_pareidolia_black_opt.jpg" loading="lazy" class="image-3">
+      </div>
+      <div class="paper-page-section-width">
+        <h1 class="paper-section-header">Predicting Pareidolia in Humans and Machines</h1>
+        <div class="small-spacer"></div>
+        <h1 class="paper-page-text-block">Why do some patterns and textures, like the surface of themoon, always seem to provoke pareidolia while others do not? To answer this question,we introduce a simple closed-form model of pareidolic face detection andanalyze its behavior. We find evidence of a &quot;goldilocks&quot; zone wherethe probability of pareidolia is maximized. Intuitively, this occurs when animage generation process is rich enough to match the main spatial modes of a facebut isn’t too rich to make it difficult to match these modes. We measure theexistence of this zone in both humans and machines.</h1><img sizes="(max-width: 479px) 93vw, (max-width: 767px) 95vw, (max-width: 991px) 90vw, 749.9999389648438px" srcset="images/GaussianModelPanel2_black_opt-p-500.jpg 500w, images/GaussianModelPanel2_black_opt-p-800.jpg 800w, images/GaussianModelPanel2_black_opt-p-1080.jpg 1080w, images/GaussianModelPanel2_black_opt-p-1600.jpg 1600w, images/GaussianModelPanel2_black_opt-p-2000.jpg 2000w, images/GaussianModelPanel2_black_opt-p-2600.jpg 2600w, images/GaussianModelPanel2_black_opt-p-3200.jpg 3200w, images/GaussianModelPanel2_black_opt.jpg 3814w" alt="" src="images/GaussianModelPanel2_black_opt.jpg" loading="lazy" class="image-3">
+      </div>
+    </div>
   </div>
   <div id="Paper" class="section">
     <div class="section-margin">
@@ -112,9 +112,6 @@
         <div class="code-block"><code>Coming Soon!</code></div>
       </div>
     </div>
-  </div>
-  <div id="Related-Projects" class="section">
-    <div class="section-margin"></div>
   </div>
   <div id="Contact" class="section">
     <div class="section-margin">
