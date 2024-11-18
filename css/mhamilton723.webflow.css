@@ -669,9 +669,7 @@ p {
   color: #fff;
   background-color: #2b2b2b;
   border-radius: 5px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 20px;
+  padding: 10px 20px;
   font-family: Inconsolata, monospace;
   font-size: 16px;
   line-height: 24px;
@@ -955,6 +953,15 @@ p {
   padding-right: 20%;
 }
 
+.about-link {
+  color: #e4e4e4;
+  transition: color .2s;
+}
+
+.about-link:hover {
+  color: var(--purple);
+}
+
 @media screen and (max-width: 991px) {
   .nav-container {
     flex: 0 auto;
@@ -1003,8 +1010,8 @@ p {
   }
 
   .conf-title {
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 18px;
+    line-height: 22px;
   }
 
   .bio-text {
@@ -1056,8 +1063,8 @@ p {
   }
 
   .pub-award {
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 18px;
+    line-height: 20px;
   }
 
   .press-link {
@@ -1235,6 +1242,8 @@ p {
 
   .home-section-header {
     padding-left: 30px;
+    font-size: 32px;
+    line-height: 38px;
   }
 
   .section {
@@ -1242,10 +1251,20 @@ p {
     padding-top: 50px;
   }
 
+  .conf-title {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
   .bio-text {
     margin-bottom: 20px;
-    font-size: 26px;
-    line-height: 30px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .link {
+    font-size: 16px;
+    line-height: 18px;
   }
 
   .section-width {
@@ -1257,7 +1276,18 @@ p {
   }
 
   .news-topic {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    font-size: 26px;
+  }
+
+  .author-list {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .paper-titile {
+    font-size: 20px;
+    line-height: 24px;
   }
 
   .paper-buttons {
@@ -1269,6 +1299,12 @@ p {
   .button {
     margin-top: 5px;
     margin-bottom: 5px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .pub-award {
+    font-size: 16px;
   }
 
   .press-image {
@@ -1295,8 +1331,8 @@ p {
 
   .h2 {
     text-align: center;
-    font-size: 30px;
-    line-height: 35px;
+    font-size: 26px;
+    line-height: 32px;
   }
 
   .news-left {
@@ -1304,29 +1340,40 @@ p {
   }
 
   .paper-title {
-    font-size: 32px;
-    line-height: 44px;
+    font-size: 28px;
+    line-height: 36px;
   }
 
   .paper-button-holder {
     flex-flow: wrap;
   }
 
+  .spacer {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
   .paper-names {
     text-align: center;
+    margin-top: 5px;
     padding-left: 10px;
     padding-right: 10px;
     line-height: 35px;
   }
 
   .affiliation-image {
-    max-width: 100px;
+    max-width: 20%;
+  }
+
+  .paper-section-header {
+    font-size: 28px;
+    line-height: 32px;
   }
 
   .paper-page-text-block {
     margin-bottom: 20px;
-    font-size: 20px;
-    line-height: 26px;
+    font-size: 18px;
+    line-height: 24px;
   }
 
   .paper-page-section-width {
@@ -1337,6 +1384,16 @@ p {
     margin-bottom: 10px;
   }
 
+  .code-block {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .me {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
   .publication-disclaimer {
     font-size: 18px;
     line-height: 24px;
@@ -1344,6 +1401,9 @@ p {
 
   .affiliationholder {
     grid-column-gap: 14px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   .framecaption4 {
@@ -1416,11 +1476,21 @@ p {
   .pareidolia-graph-image {
     margin-top: 0;
   }
+
+  .code {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .about-link {
+    font-size: 18px;
+    line-height: 22px;
+  }
 }
 
 @media screen and (max-width: 479px) {
   .particles {
-    height: 90vh;
+    height: 80vh;
   }
 
   .hero-wrap {
@@ -1443,8 +1513,24 @@ p {
     max-width: 100%;
   }
 
+  .video-body {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .video-div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .video-head {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
   .pub-img {
-    max-height: 200px;
+    max-width: 80%;
+    max-height: 180px;
     margin-bottom: 5px;
   }
 
@@ -1454,18 +1540,24 @@ p {
   }
 
   .home-section-header {
+    margin-top: 15px;
+    margin-bottom: 0;
     padding-top: 20px;
     padding-bottom: 10px;
     padding-left: 20px;
+    font-size: 30px;
+    line-height: 30px;
   }
 
   .conf-title {
     text-align: center;
+    font-size: 14px;
+    line-height: 16px;
   }
 
-  .bio-text {
-    font-size: 20px;
-    line-height: 22px;
+  .bio-text, .link {
+    font-size: 14px;
+    line-height: 20px;
   }
 
   .section-width {
@@ -1477,16 +1569,27 @@ p {
   }
 
   .press-grid {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 25px;
   }
 
   .news-topic {
-    padding-top: 20px;
+    margin-bottom: 0;
+    padding-top: 10px;
     padding-bottom: 10px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .author-list {
+    font-size: 14px;
+    line-height: 18px;
   }
 
   .paper-titile {
     text-align: center;
+    font-size: 16px;
+    line-height: 18px;
   }
 
   .paper-entry {
@@ -1506,21 +1609,32 @@ p {
 
   .button {
     align-content: stretch;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 14px;
+    line-height: 18px;
   }
 
   .pub-award {
     text-align: center;
+    font-size: 14px;
+    line-height: 18px;
   }
 
   .press-link {
+    padding: 10px 5px;
     transition: background-color .2s;
   }
 
   .press-image {
-    min-width: 120px;
+    min-width: 80px;
     max-height: 60px;
+  }
+
+  .talks-image {
+    max-height: 80px;
   }
 
   .contact-icon {
@@ -1530,7 +1644,8 @@ p {
   }
 
   .contact-link {
-    font-size: 16px;
+    font-size: 14px;
+    line-height: 20px;
   }
 
   .column {
@@ -1548,7 +1663,8 @@ p {
   }
 
   .h2 {
-    font-size: 26px;
+    margin-top: 5px;
+    font-size: 22px;
     line-height: 28px;
   }
 
@@ -1558,7 +1674,8 @@ p {
   }
 
   .contact-text {
-    font-size: 16px;
+    font-size: 14px;
+    line-height: 20px;
   }
 
   .news-item {
@@ -1566,7 +1683,8 @@ p {
   }
 
   .news-date, .news-text {
-    font-size: 16px;
+    font-size: 14px;
+    line-height: 20px;
   }
 
   .news-left {
@@ -1575,7 +1693,8 @@ p {
   }
 
   .paper-title {
-    line-height: 40px;
+    font-size: 22px;
+    line-height: 28px;
   }
 
   .paper-button-holder {
@@ -1584,7 +1703,7 @@ p {
 
   .paper-names {
     font-size: 20px;
-    line-height: 32px;
+    line-height: 24px;
   }
 
   .affiliation-image {
@@ -1595,14 +1714,31 @@ p {
     margin-right: 0;
   }
 
+  .paper-section-header {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
   .paper-page-text-block {
     text-align: justify;
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .small-spacer {
+    margin-bottom: 10px;
   }
 
   .paper-page-section-width {
     width: 93%;
+  }
+
+  .code-block {
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 18px;
   }
 
   .youtube {
@@ -1611,6 +1747,8 @@ p {
 
   .publication-disclaimer {
     text-align: center;
+    font-size: 14px;
+    line-height: 20px;
   }
 
   .affiliationholder {
@@ -1665,6 +1803,8 @@ p {
   .example-subheader {
     margin-top: 10px;
     margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 24px;
   }
 
   .smallvideocaptionfooter4 {
@@ -1687,7 +1827,8 @@ p {
   }
 
   .tldr-text {
-    font-size: 16px;
+    font-size: 14px;
+    line-height: 22px;
   }
 
   .nav-icon {
@@ -1716,6 +1857,17 @@ p {
   .pareidolia-graph-image {
     padding-left: 0%;
     padding-right: 0%;
+  }
+
+  .code {
+    word-break: break-all;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .about-link {
+    font-size: 14px;
+    line-height: 20px;
   }
 }
 
