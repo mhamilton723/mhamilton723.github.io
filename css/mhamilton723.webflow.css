@@ -1193,6 +1193,10 @@ p {
     height: 50px;
   }
 
+  .particles {
+    height: 100vh;
+  }
+
   .hero-wrap {
     flex-direction: column;
     flex: 1;
@@ -1214,11 +1218,11 @@ p {
     width: 100%;
     margin-top: -50px;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
   }
 
   .me {
-    max-width: 80%;
+    max-width: 200px;
   }
 
   .body {
@@ -1491,7 +1495,7 @@ p {
 
 @media screen and (max-width: 479px) {
   .particles {
-    height: 80vh;
+    height: 70vh;
   }
 
   .hero-wrap {
@@ -1508,10 +1512,7 @@ p {
 
   .hero-right {
     margin-top: 0;
-  }
-
-  .me {
-    max-width: 100%;
+    padding-bottom: 0;
   }
 
   .video-body {
