@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Tue Apr 08 2025 04:16:41 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Wed Apr 23 2025 14:51:44 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="67edbb0ef869fec7d7133576" data-wf-site="5fd97fcae7aaf2c02444f619">
 <head>
   <meta charset="utf-8">
@@ -65,7 +65,9 @@
   </div>
   <div id="Video" class="section">
     <div class="section-margin">
-      <div class="paper-page-section-width"></div>
+      <div class="paper-page-section-width">
+        <div style="padding-top:56.17021276595745%" class="w-embed-youtubevideo"><iframe src="https://www.youtube.com/embed/UvjTbnFzRac?rel=0&amp;controls=1&amp;autoplay=0&amp;mute=0&amp;start=0" frameborder="0" style="position:absolute;left:0;top:0;width:100%;height:100%;pointer-events:auto" allow="autoplay; encrypted-media" allowfullscreen="" title="I-Con: A Unifying Framework for Representation Learning (ICLR 2025)"></iframe></div>
+      </div>
     </div>
   </div>
   <div id="Abstract" class="section">
@@ -81,12 +83,12 @@
       <div class="paper-page-section-width">
         <h1 class="paper-section-header">Information Contrastive Learning (I-Con)</h1>
         <div class="small-spacer"></div>
-        <h1 class="paper-page-text-block">Machine learning methods can seem like a collection of isolated techniques, but what if they all shared a deeper connection? Information Contrastive Learning (I-Con) uncovers this unity. At its core, I-Con reframes over 20 different machine learning methods as the problem of approximating relationships in a training dataset.  Mathematically, the I-Con loss is expressed as the average KL divergence between the two neighborhood distributions. By using different neighborhood definitions, we show that I-Con seamlessly incorporates methods from clustering, dimensionality reduction, and contrastive learning.</h1><img src="images/method_overview_opt.jpg" loading="lazy" sizes="100vw" srcset="images/method_overview_opt.jpg 500w, images/method_overview_opt.jpg 800w, images/method_overview_opt.jpg 1080w, images/method_overview_opt.jpg 1600w, images/method_overview_opt.jpg 2000w, images/method_overview_opt.jpg 2600w, images/method_overview_opt.jpg 2910w" alt="" class="paper-image">
+        <h1 class="paper-page-text-block">Machine learning methods can seem like a collection of isolated techniques, but what if they all shared a deeper connection? Information Contrastive Learning (I-Con) uncovers this unity. At its core, I-Con reframes over 20 different machine learning methods as the problem of approximating relationships in a training dataset.  Mathematically, the I-Con loss is expressed as the average KL divergence between the two neighborhood distributions. By using different neighborhood definitions, we show that I-Con seamlessly incorporates methods from clustering, dimensionality reduction, and contrastive learning.</h1><img src="images/method_overview_opt.jpg" loading="lazy" sizes="100vw" srcset="images/method_overview_opt-p-500.jpg 500w, images/method_overview_opt-p-800.jpg 800w, images/method_overview_opt-p-1080.jpg 1080w, images/method_overview_opt-p-1600.jpg 1600w, images/method_overview_opt-p-2000.jpg 2000w, images/method_overview_opt-p-2600.jpg 2600w, images/method_overview_opt.jpg 2910w" alt="" class="paper-image">
       </div>
       <div class="paper-page-section-width">
         <h1 class="paper-section-header">Unifying Machine Learning Losses</h1>
         <div class="small-spacer"></div>
-        <h1 class="paper-page-text-block">To see how I-Con unifies common machine learning algorithms, let&#x27;s look at a few specific examples. I-Con unifies popular methods like dimensionality reduction (SNE, t-SNE), contrastive learning (SimCLR), and clustering (k-Means), supervised learning and many more through a single mathematical equation that matches two neighborhood distributions. In methods like stochastic neighbor embedding (SNE), I-Con matches high-dimensional Gaussian neighborhoods with lower-dimensional embeddings. Replacing low-dimensional embeddings with a probability distribution over clusters results in k-Means. Switching Gaussian neighborhoods to graph edge-based neighbors yields Spectral clustering. Using data-augmentation pairs and Gaussian neighborhoods recovers the InfoNCE loss used in contrastive learning methods like CLIP and SimCLR. Beyond re-deriving existing methods, I-Con can also create new ones by mixing neighborhood definitions, such as our contrastive clustering method that combines augmentation pairs and cluster probabilities.</h1><img src="images/unifying_losses_opt.jpg" loading="lazy" sizes="100vw" srcset="images/unifying_losses_opt.jpg 500w, images/unifying_losses_opt.jpg 800w, images/unifying_losses_opt.jpg 1080w, images/unifying_losses_opt.jpg 1600w, images/unifying_losses_opt.jpg 2000w, images/unifying_losses_opt.jpg 3074w" alt="" class="paper-image">
+        <h1 class="paper-page-text-block">To see how I-Con unifies common machine learning algorithms, let&#x27;s look at a few specific examples. I-Con unifies popular methods like dimensionality reduction (SNE, t-SNE), contrastive learning (SimCLR), and clustering (k-Means), supervised learning and many more through a single mathematical equation that matches two neighborhood distributions. In methods like stochastic neighbor embedding (SNE), I-Con matches high-dimensional Gaussian neighborhoods with lower-dimensional embeddings. Replacing low-dimensional embeddings with a probability distribution over clusters results in k-Means. Switching Gaussian neighborhoods to graph edge-based neighbors yields Spectral clustering. Using data-augmentation pairs and Gaussian neighborhoods recovers the InfoNCE loss used in contrastive learning methods like CLIP and SimCLR. Beyond re-deriving existing methods, I-Con can also create new ones by mixing neighborhood definitions, such as our contrastive clustering method that combines augmentation pairs and cluster probabilities.</h1><img src="images/unifying_losses_opt.jpg" loading="lazy" sizes="100vw" srcset="images/unifying_losses_opt-p-500.jpg 500w, images/unifying_losses_opt-p-800.jpg 800w, images/unifying_losses_opt-p-1080.jpg 1080w, images/unifying_losses_opt-p-1600.jpg 1600w, images/unifying_losses_opt-p-2000.jpg 2000w, images/unifying_losses_opt.jpg 3074w" alt="" class="paper-image">
       </div>
       <div class="paper-page-section-width">
         <h1 class="paper-section-header">Deriving New Methods</h1>
@@ -96,7 +98,7 @@
       <div class="paper-page-section-width">
         <h1 class="paper-section-header">Results</h1>
         <div class="small-spacer"></div>
-        <h1 class="paper-page-text-block">We compare I-Con-derived methods to state-of-the-art unsupervised image classification techniques like SCAN and TEMI using the ImageNet-1K dataset and the DINO backbone. I-Con-based image clustering consistently outperforms existing approaches. Our Debiased InfoNCE Clustering method improves over the previous art TEMI across all backbone sizes. The improvements come from I-Con’s self-balancing loss and its ability to integrate insights from contrastive learning and dimensionality reduction into clustering.</h1><img src="images/icon-table.png" loading="lazy" sizes="100vw" srcset="images/icon-table.png 500w, images/icon-table.png 800w, images/icon-table.png 1080w, images/icon-table.png 1517w" alt="" class="paper-image">
+        <h1 class="paper-page-text-block">We compare I-Con-derived methods to state-of-the-art unsupervised image classification techniques like SCAN and TEMI using the ImageNet-1K dataset and the DINO backbone. I-Con-based image clustering consistently outperforms existing approaches. Our Debiased InfoNCE Clustering method improves over the previous art TEMI across all backbone sizes. The improvements come from I-Con’s self-balancing loss and its ability to integrate insights from contrastive learning and dimensionality reduction into clustering.</h1><img src="images/icon-table.png" loading="lazy" sizes="100vw" srcset="images/icon-table-p-500.png 500w, images/icon-table-p-800.png 800w, images/icon-table-p-1080.png 1080w, images/icon-table.png 1517w" alt="" class="paper-image">
       </div>
     </div>
   </div>
@@ -105,7 +107,7 @@
       <div class="paper-page-section-width">
         <h1 class="paper-section-header">Paper</h1>
         <div class="small-spacer"></div>
-        <a href="https://aka.ms/icon-paper" target="_blank" class="w-inline-block"><img src="images/icon_paper_img.jpg" loading="lazy" sizes="100vw" srcset="images/icon_paper_img.jpg 500w, images/icon_paper_img.jpg 800w, images/icon_paper_img.jpg 1080w, images/icon_paper_img.jpg 1600w, images/icon_paper_img.jpg 2000w, images/icon_paper_img.jpg 2675w" alt="" class="paper-thumbnail"></a>
+        <a href="https://aka.ms/icon-paper" target="_blank" class="w-inline-block"><img src="images/icon_paper_img.jpg" loading="lazy" sizes="100vw" srcset="images/icon_paper_img-p-500.jpg 500w, images/icon_paper_img-p-800.jpg 800w, images/icon_paper_img-p-1080.jpg 1080w, images/icon_paper_img-p-1600.jpg 1600w, images/icon_paper_img-p-2000.jpg 2000w, images/icon_paper_img.jpg 2675w" alt="" class="paper-thumbnail"></a>
       </div>
       <div class="paper-page-section-width">
         <h1 class="paper-section-header">Bibtex</h1>
